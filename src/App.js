@@ -6,6 +6,8 @@ import Welcome from "./components/welcome";
 import Hello from "./components/hello";
 import Messages from "./components/messages";
 import Counter from "./components/counter";
+import FunctionClick from "./components/FunctionClick";
+
 
 class App extends Component {
   render() {
@@ -22,10 +24,12 @@ class App extends Component {
 
         <Greet name="jack" heroName="archer" /> */}
 
-        <Welcome name="farnam" heroName="assassin" />
+        {/* <Welcome name="farnam" heroName="assassin" />
         <Welcome name="john" heroName="gamer" />
         <Welcome name="jack" heroName="archer" />
-        <Hello />
+        <Hello /> */}
+        <br/>
+        <FunctionClick/>
       </div>
     );
   }
